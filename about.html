@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogify Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="indx.html"></a>
+        <div class="nav-links" id="navlinks">
+        <i class="fa fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="indx.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<h1>ABOUT US</h1>
+</section>
+<!-----about us section-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+        <h1>Why Yoga is important ?</h1>
+         <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control and still the mind,recognizing a detached witness-consciousness untouched by the mind and mundane suffering.yoga helps in better sleep,control our pulse rate,strengthen our muscles,boost immunity,gives perfect body shape,increase bone density,improves mood,helps in brain functioning,gives strong heart.</p>
+         <a href="" class="hero-btn red-btn">Explore now</a>
+        </div>
+        <div class="about-col">
+        <img src="images/Yoga-Benefits.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<!----footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Yogify is website which helps you to know about yoga ,pranayama and asanas.It helps you to motivate to become more fit and healthy <br> And for people who are suffering from any kind of diseases it is a like medicine to them.</p>
+    <p>Made by Rishabh Gupta</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------javascript for toggle menu--------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+
+    }
+
+    
+</script>
+   
+
+
+</body> 
+
+</html>

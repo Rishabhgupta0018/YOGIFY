@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogify Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="indx.html"></a>
+        <div class="nav-links" id="navlinks">
+        <i class="fa fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="indx.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>YOGA</h1>
+    <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India <br> and aim to control and still the mind,recognizing a detached witness-consciousness untouched by the mind and mundane suffering.</p>
+    <a href="" class="hero-btn">visit us to know more</a> 
+</div>
+</section>
+<!-----benefits-->
+<section class="Benefits">
+    <h1>Benefits of Yoga</h1>
+    <p>yoga can support the healing process and help the person experience symptoms with more centeredness and less distress.</p>
+    <div class="row">
+        <div class="Benefits-col">
+            <h3>Yoga improves Flexibility</h3>
+            <p>Flexibility is an important component of physical health. Yoga offers many styles to choose from, varying in intensity from high to moderate to mild.</p>
+        </div>
+        <div class="Benefits-col">
+            <h3>Yoga helps you to build strength</h3>
+            <p>Yoga helps to strengthen the muscles that support the body’s weight, leading to functional strength. It is also fantastic for building core strength.</p>
+        </div>
+        <div class="Benefits-col">
+            <h3>Yoga encourages your body’s natural healing process</h3>
+            <p>The body has an incredible ability to heal itself, given the appropriate conditions. Yoga practice can be a wonderful way to create an environment which allows the body’s innate healing powers to kick in.</p>
+        </div>
+    </div>
+</section>
+<!-------pranayama--------->
+<section class="pranayama">
+    <h1>pranayama</h1>
+    <p>Pranayama is the yogic practice of focusing on breath. In Sanskrit, prana means "vital life force", and yama means to gain control.</p>
+    <div class="row">
+        <div class="pranayama-col">
+            <img src="images/y3.jpg">
+            <div class="layer">
+                <h3>kapalbhati</h3>
+            </div>
+        </div>
+        <div class="pranayama-col">
+            <img src="images/y5.webp">
+            <div class="layer">
+                <h3>anulom vilom</h3>
+            </div>
+        </div>
+        <div class="pranayama-col">
+            <img src="images/y6.jpg">
+            <div class="layer">
+                <h3>brahmari</h3>
+            </div>
+        </div>
+    
+    </div>
+</section>
+<!----------asanas-->
+<section class="asanas">
+    <h1>asanas</h1>
+    <p>An asana is a body posture, originally and still a general term for a sitting meditation pose, and later extended in hatha yoga and modern yoga as exercise, to any type of position, adding reclining, standing, inverted, twisting, and balancing poses.</p>
+<div class="row">
+    <div class="asanas-col">
+        <img src="images/y7.webp">
+        <h3>bhujangasana</h3>
+        <p>Bhujangasana is very useful to keep your back healthy. Practise this asana individually or through the Surya Namaskar to make your spinal region strong and very agile. This posture can tone your body and the spinal nerves. Bhujangasana improves your digestion, liver and kidney functions as well.</p>
+
+    </div>
+    <div class="asanas-col">
+        <img src="images/y8.jpg">
+        <h3>sarvangasana</h3>
+        <p>Sarvangasana influences the functioning of all parts of your body. This asana is highly beneficial in maintaining the mental and physical health.Stimulates the thyroid and parathyroid glands and normalizes their functions.Strengthens the arms and shoulders and keeps the spine flexible.Nourishes the brain with more blood.Stretches the heart muscles by returning more venous blood to the heart.Brings relief from constipation, indigestion and varicose veins</p>
+
+    </div>
+    <div class="asanas-col">
+        <img src="images/y9.webp">
+        <h3>mandukasana</h3>
+        <p>Mandukasana helps relieve stomach issues including constipation as it massages the abdominal region. It also helps improve your body's digestive functions. Mandukasana is a great exercise if you are seeking to lose weight. This yoga asana helps shed excess belly fat and removes fat from the waist and thighs.</p>
+
+    </div>
+</div>    
+</section>
+<section class="cta">
+    <h1>IF YOU WANT TO KEEP HEALTHY AND FIT THEN</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+<!----footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Yogify is website which helps you to know about yoga ,pranayama and asanas.It helps you to motivate to become more fit and healthy <br> And for people who are sufferingfrom any kind of diseases it is a like medicine to them.</p>
+    <p>Made by Rishabh Gupta</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------javascript for toggle menu--------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+
+    }
+
+    
+</script>
+   
+
+
+</body> 
+
+</html>
